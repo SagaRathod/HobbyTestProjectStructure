@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF63FE76F83371391F22EA3 /* libPods-HobbyTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EFF9F0AE584DD9006CFEF7 /* libPods-HobbyTestUITests.a */; };
+		D61BF1BB9AB59D337A95472C /* libPods-HobbyTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE5492790E48D53786F1CD8 /* libPods-HobbyTestTests.a */; };
+		E968857F22857A3600C3125A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968857E22857A3600C3125A /* AppDelegate.swift */; };
+		E968858422857A3600C3125A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E968858222857A3600C3125A /* Main.storyboard */; };
+		E968858722857A3600C3125A /* HobbyTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E968858522857A3600C3125A /* HobbyTest.xcdatamodeld */; };
+		E968858922857A3E00C3125A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E968858822857A3E00C3125A /* Assets.xcassets */; };
+		E968858C22857A3E00C3125A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E968858A22857A3E00C3125A /* LaunchScreen.storyboard */; };
+		E968859722857A3E00C3125A /* HobbyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968859622857A3E00C3125A /* HobbyTestTests.swift */; };
+		E96885A222857A3E00C3125A /* HobbyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885A122857A3E00C3125A /* HobbyTestUITests.swift */; };
+		E96885B02285808800C3125A /* CHobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885AF2285808800C3125A /* CHobbiesViewController.swift */; };
+		E96885B3228580B200C3125A /* CDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885B2228580B200C3125A /* CDetailsViewController.swift */; };
+		E96885B5228580E600C3125A /* CAddHobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885B4228580E600C3125A /* CAddHobbiesViewController.swift */; };
+		E96885C12285836E00C3125A /* HobbyTestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E96885BF2285836E00C3125A /* HobbyTestModel.xcdatamodeld */; };
+		E96885C9228589D300C3125A /* HobbiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885C8228589D300C3125A /* HobbiesCollectionViewCell.swift */; };
+		E96885CB22858DD700C3125A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885CA22858DD600C3125A /* RoundedButton.swift */; };
+		E96885CF2285919A00C3125A /* BorderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885CE2285919A00C3125A /* BorderClass.swift */; };
+		E96885D12285923100C3125A /* GlobalConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885D02285923100C3125A /* GlobalConstant.swift */; };
+		E96885D3228593FB00C3125A /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885D2228593FB00C3125A /* APIConstant.swift */; };
+		E96885D5228595D100C3125A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885D4228595D100C3125A /* Services.swift */; };
+		E96885D922859D5D00C3125A /* HobbiesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96885D822859D5D00C3125A /* HobbiesData.swift */; };
+		E96885DB2285A00E00C3125A /* applelogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E96885DA2285A00D00C3125A /* applelogo.jpg */; };
+		E9878042228AD01E002290FE /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9878041228AD01E002290FE /* CategoryData.swift */; };
+		FE303F81DF7969F79556066E /* libPods-HobbyTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A31E591C12B6F598C9E138 /* libPods-HobbyTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E968859322857A3E00C3125A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E968857322857A3600C3125A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E968857A22857A3600C3125A;
+			remoteInfo = HobbyTest;
+		};
+		E968859E22857A3E00C3125A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E968857322857A3600C3125A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E968857A22857A3600C3125A;
+			remoteInfo = HobbyTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FCAAB074882658C0E2ECFDA /* Pods-HobbyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HobbyTest/Pods-HobbyTest.release.xcconfig"; sourceTree = "<group>"; };
+		29111DA9CCD81F49773E31C5 /* Pods-HobbyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HobbyTest/Pods-HobbyTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2BE5492790E48D53786F1CD8 /* libPods-HobbyTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HobbyTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		426D26BF459374846AF11E98 /* Pods-HobbyTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HobbyTestUITests/Pods-HobbyTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58A31E591C12B6F598C9E138 /* libPods-HobbyTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HobbyTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDF90A3252A4A1C8B0ADDAB /* Pods-HobbyTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HobbyTestTests/Pods-HobbyTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		81EFF9F0AE584DD9006CFEF7 /* libPods-HobbyTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HobbyTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		868395EBBD9BCAB21E2B13B4 /* Pods-HobbyTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HobbyTestTests/Pods-HobbyTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD7E2F833AEF02370B1E791D /* Pods-HobbyTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HobbyTestUITests/Pods-HobbyTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E968857B22857A3600C3125A /* HobbyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E968857E22857A3600C3125A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E968858322857A3600C3125A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E968858622857A3600C3125A /* HobbyTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HobbyTest.xcdatamodel; sourceTree = "<group>"; };
+		E968858822857A3E00C3125A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E968858B22857A3E00C3125A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E968858D22857A3E00C3125A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E968859222857A3E00C3125A /* HobbyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E968859622857A3E00C3125A /* HobbyTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTestTests.swift; sourceTree = "<group>"; };
+		E968859822857A3E00C3125A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E968859D22857A3E00C3125A /* HobbyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96885A122857A3E00C3125A /* HobbyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTestUITests.swift; sourceTree = "<group>"; };
+		E96885A322857A3E00C3125A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96885AF2285808800C3125A /* CHobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHobbiesViewController.swift; sourceTree = "<group>"; };
+		E96885B2228580B200C3125A /* CDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDetailsViewController.swift; sourceTree = "<group>"; };
+		E96885B4228580E600C3125A /* CAddHobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAddHobbiesViewController.swift; sourceTree = "<group>"; };
+		E96885C02285836E00C3125A /* HobbyTestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HobbyTestModel.xcdatamodel; sourceTree = "<group>"; };
+		E96885C8228589D300C3125A /* HobbiesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		E96885CA22858DD600C3125A /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		E96885CE2285919A00C3125A /* BorderClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderClass.swift; sourceTree = "<group>"; };
+		E96885D02285923100C3125A /* GlobalConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstant.swift; sourceTree = "<group>"; };
+		E96885D2228593FB00C3125A /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		E96885D4228595D100C3125A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		E96885D822859D5D00C3125A /* HobbiesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesData.swift; sourceTree = "<group>"; };
+		E96885DA2285A00D00C3125A /* applelogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = applelogo.jpg; sourceTree = "<group>"; };
+		E9878041228AD01E002290FE /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E968857822857A3600C3125A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE303F81DF7969F79556066E /* libPods-HobbyTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E968858F22857A3E00C3125A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61BF1BB9AB59D337A95472C /* libPods-HobbyTestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E968859A22857A3E00C3125A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF63FE76F83371391F22EA3 /* libPods-HobbyTestUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321F5FC576F8568EFE56830B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58A31E591C12B6F598C9E138 /* libPods-HobbyTest.a */,
+				2BE5492790E48D53786F1CD8 /* libPods-HobbyTestTests.a */,
+				81EFF9F0AE584DD9006CFEF7 /* libPods-HobbyTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B09EDF4241C09D2E25EAF33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29111DA9CCD81F49773E31C5 /* Pods-HobbyTest.debug.xcconfig */,
+				1FCAAB074882658C0E2ECFDA /* Pods-HobbyTest.release.xcconfig */,
+				868395EBBD9BCAB21E2B13B4 /* Pods-HobbyTestTests.debug.xcconfig */,
+				6FDF90A3252A4A1C8B0ADDAB /* Pods-HobbyTestTests.release.xcconfig */,
+				426D26BF459374846AF11E98 /* Pods-HobbyTestUITests.debug.xcconfig */,
+				AD7E2F833AEF02370B1E791D /* Pods-HobbyTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E968857222857A3600C3125A = {
+			isa = PBXGroup;
+			children = (
+				E968857D22857A3600C3125A /* HobbyTest */,
+				E968859522857A3E00C3125A /* HobbyTestTests */,
+				E96885A022857A3E00C3125A /* HobbyTestUITests */,
+				E968857C22857A3600C3125A /* Products */,
+				9B09EDF4241C09D2E25EAF33 /* Pods */,
+				321F5FC576F8568EFE56830B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E968857C22857A3600C3125A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E968857B22857A3600C3125A /* HobbyTest.app */,
+				E968859222857A3E00C3125A /* HobbyTestTests.xctest */,
+				E968859D22857A3E00C3125A /* HobbyTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E968857D22857A3600C3125A /* HobbyTest */ = {
+			isa = PBXGroup;
+			children = (
+				E96885DA2285A00D00C3125A /* applelogo.jpg */,
+				E96885B72285820600C3125A /* Constant */,
+				E96885B6228581F900C3125A /* Extension */,
+				E96885B12285808E00C3125A /* ViewController */,
+				E96885B92285824000C3125A /* Services */,
+				E96885B82285821200C3125A /* DataSources&ModelClasses */,
+				E96885BD228582EB00C3125A /* Model */,
+				E96885C2228584C000C3125A /* Utils */,
+				E968857E22857A3600C3125A /* AppDelegate.swift */,
+				E968858222857A3600C3125A /* Main.storyboard */,
+				E968858822857A3E00C3125A /* Assets.xcassets */,
+				E968858A22857A3E00C3125A /* LaunchScreen.storyboard */,
+				E968858D22857A3E00C3125A /* Info.plist */,
+				E968858522857A3600C3125A /* HobbyTest.xcdatamodeld */,
+			);
+			path = HobbyTest;
+			sourceTree = "<group>";
+		};
+		E968859522857A3E00C3125A /* HobbyTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E968859622857A3E00C3125A /* HobbyTestTests.swift */,
+				E968859822857A3E00C3125A /* Info.plist */,
+			);
+			path = HobbyTestTests;
+			sourceTree = "<group>";
+		};
+		E96885A022857A3E00C3125A /* HobbyTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E96885A122857A3E00C3125A /* HobbyTestUITests.swift */,
+				E96885A322857A3E00C3125A /* Info.plist */,
+			);
+			path = HobbyTestUITests;
+			sourceTree = "<group>";
+		};
+		E96885B12285808E00C3125A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E96885C52285895600C3125A /* HobbiesViewController */,
+				E96885C62285896B00C3125A /* DetailsViewController */,
+				E96885C72285897E00C3125A /* AddHobbiesViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E96885B6228581F900C3125A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E96885CA22858DD600C3125A /* RoundedButton.swift */,
+				E96885CE2285919A00C3125A /* BorderClass.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E96885B72285820600C3125A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				E96885D02285923100C3125A /* GlobalConstant.swift */,
+				E96885D2228593FB00C3125A /* APIConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		E96885B82285821200C3125A /* DataSources&ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E96885BB228582B200C3125A /* DatabaseHandlers */,
+				E96885BC228582CD00C3125A /* PojoClasses */,
+			);
+			path = "DataSources&ModelClasses";
+			sourceTree = "<group>";
+		};
+		E96885B92285824000C3125A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E96885D4228595D100C3125A /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E96885BB228582B200C3125A /* DatabaseHandlers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DatabaseHandlers;
+			sourceTree = "<group>";
+		};
+		E96885BC228582CD00C3125A /* PojoClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E96885D822859D5D00C3125A /* HobbiesData.swift */,
+				E9878041228AD01E002290FE /* CategoryData.swift */,
+			);
+			path = PojoClasses;
+			sourceTree = "<group>";
+		};
+		E96885BD228582EB00C3125A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E96885BE2285832900C3125A /* CoreData */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E96885BE2285832900C3125A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E96885BF2285836E00C3125A /* HobbyTestModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E96885C2228584C000C3125A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E96885C52285895600C3125A /* HobbiesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E96885AF2285808800C3125A /* CHobbiesViewController.swift */,
+				E96885C8228589D300C3125A /* HobbiesCollectionViewCell.swift */,
+			);
+			path = HobbiesViewController;
+			sourceTree = "<group>";
+		};
+		E96885C62285896B00C3125A /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E96885B2228580B200C3125A /* CDetailsViewController.swift */,
+			);
+			path = DetailsViewController;
+			sourceTree = "<group>";
+		};
+		E96885C72285897E00C3125A /* AddHobbiesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E96885B4228580E600C3125A /* CAddHobbiesViewController.swift */,
+			);
+			path = AddHobbiesViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E968857A22857A3600C3125A /* HobbyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96885A622857A3E00C3125A /* Build configuration list for PBXNativeTarget "HobbyTest" */;
+			buildPhases = (
+				43F46DD299E4D68A8C541DED /* [CP] Check Pods Manifest.lock */,
+				E968857722857A3600C3125A /* Sources */,
+				E968857822857A3600C3125A /* Frameworks */,
+				E968857922857A3600C3125A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HobbyTest;
+			productName = HobbyTest;
+			productReference = E968857B22857A3600C3125A /* HobbyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E968859122857A3E00C3125A /* HobbyTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96885A922857A3E00C3125A /* Build configuration list for PBXNativeTarget "HobbyTestTests" */;
+			buildPhases = (
+				38F989FEC53A37DA66E603A7 /* [CP] Check Pods Manifest.lock */,
+				E968858E22857A3E00C3125A /* Sources */,
+				E968858F22857A3E00C3125A /* Frameworks */,
+				E968859022857A3E00C3125A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E968859422857A3E00C3125A /* PBXTargetDependency */,
+			);
+			name = HobbyTestTests;
+			productName = HobbyTestTests;
+			productReference = E968859222857A3E00C3125A /* HobbyTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E968859C22857A3E00C3125A /* HobbyTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96885AC22857A3E00C3125A /* Build configuration list for PBXNativeTarget "HobbyTestUITests" */;
+			buildPhases = (
+				52A04FD8B740A0E8979C3002 /* [CP] Check Pods Manifest.lock */,
+				E968859922857A3E00C3125A /* Sources */,
+				E968859A22857A3E00C3125A /* Frameworks */,
+				E968859B22857A3E00C3125A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E968859F22857A3E00C3125A /* PBXTargetDependency */,
+			);
+			name = HobbyTestUITests;
+			productName = HobbyTestUITests;
+			productReference = E968859D22857A3E00C3125A /* HobbyTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E968857322857A3600C3125A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "AppBell Technologies Pvt Ltd";
+				TargetAttributes = {
+					E968857A22857A3600C3125A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					E968859122857A3E00C3125A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = E968857A22857A3600C3125A;
+					};
+					E968859C22857A3E00C3125A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = E968857A22857A3600C3125A;
+					};
+				};
+			};
+			buildConfigurationList = E968857622857A3600C3125A /* Build configuration list for PBXProject "HobbyTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E968857222857A3600C3125A;
+			productRefGroup = E968857C22857A3600C3125A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E968857A22857A3600C3125A /* HobbyTest */,
+				E968859122857A3E00C3125A /* HobbyTestTests */,
+				E968859C22857A3E00C3125A /* HobbyTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E968857922857A3600C3125A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E968858C22857A3E00C3125A /* LaunchScreen.storyboard in Resources */,
+				E968858922857A3E00C3125A /* Assets.xcassets in Resources */,
+				E968858422857A3600C3125A /* Main.storyboard in Resources */,
+				E96885DB2285A00E00C3125A /* applelogo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E968859022857A3E00C3125A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E968859B22857A3E00C3125A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38F989FEC53A37DA66E603A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HobbyTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F46DD299E4D68A8C541DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HobbyTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A04FD8B740A0E8979C3002 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HobbyTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E968857722857A3600C3125A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96885B02285808800C3125A /* CHobbiesViewController.swift in Sources */,
+				E9878042228AD01E002290FE /* CategoryData.swift in Sources */,
+				E96885B3228580B200C3125A /* CDetailsViewController.swift in Sources */,
+				E96885D922859D5D00C3125A /* HobbiesData.swift in Sources */,
+				E96885D5228595D100C3125A /* Services.swift in Sources */,
+				E968857F22857A3600C3125A /* AppDelegate.swift in Sources */,
+				E96885CB22858DD700C3125A /* RoundedButton.swift in Sources */,
+				E96885D3228593FB00C3125A /* APIConstant.swift in Sources */,
+				E968858722857A3600C3125A /* HobbyTest.xcdatamodeld in Sources */,
+				E96885D12285923100C3125A /* GlobalConstant.swift in Sources */,
+				E96885C9228589D300C3125A /* HobbiesCollectionViewCell.swift in Sources */,
+				E96885C12285836E00C3125A /* HobbyTestModel.xcdatamodeld in Sources */,
+				E96885CF2285919A00C3125A /* BorderClass.swift in Sources */,
+				E96885B5228580E600C3125A /* CAddHobbiesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E968858E22857A3E00C3125A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E968859722857A3E00C3125A /* HobbyTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E968859922857A3E00C3125A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96885A222857A3E00C3125A /* HobbyTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E968859422857A3E00C3125A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E968857A22857A3600C3125A /* HobbyTest */;
+			targetProxy = E968859322857A3E00C3125A /* PBXContainerItemProxy */;
+		};
+		E968859F22857A3E00C3125A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E968857A22857A3600C3125A /* HobbyTest */;
+			targetProxy = E968859E22857A3E00C3125A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E968858222857A3600C3125A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E968858322857A3600C3125A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E968858A22857A3E00C3125A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E968858B22857A3E00C3125A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E96885A422857A3E00C3125A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E96885A522857A3E00C3125A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96885A722857A3E00C3125A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29111DA9CCD81F49773E31C5 /* Pods-HobbyTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JS5G4AN4TZ;
+				INFOPLIST_FILE = HobbyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbell.com.HobbyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96885A822857A3E00C3125A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCAAB074882658C0E2ECFDA /* Pods-HobbyTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JS5G4AN4TZ;
+				INFOPLIST_FILE = HobbyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbell.com.HobbyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E96885AA22857A3E00C3125A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868395EBBD9BCAB21E2B13B4 /* Pods-HobbyTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JS5G4AN4TZ;
+				INFOPLIST_FILE = HobbyTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbell.com.HobbyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HobbyTest.app/HobbyTest";
+			};
+			name = Debug;
+		};
+		E96885AB22857A3E00C3125A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDF90A3252A4A1C8B0ADDAB /* Pods-HobbyTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JS5G4AN4TZ;
+				INFOPLIST_FILE = HobbyTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbell.com.HobbyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HobbyTest.app/HobbyTest";
+			};
+			name = Release;
+		};
+		E96885AD22857A3E00C3125A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426D26BF459374846AF11E98 /* Pods-HobbyTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JS5G4AN4TZ;
+				INFOPLIST_FILE = HobbyTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbell.com.HobbyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HobbyTest;
+			};
+			name = Debug;
+		};
+		E96885AE22857A3E00C3125A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7E2F833AEF02370B1E791D /* Pods-HobbyTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JS5G4AN4TZ;
+				INFOPLIST_FILE = HobbyTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbell.com.HobbyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HobbyTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E968857622857A3600C3125A /* Build configuration list for PBXProject "HobbyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96885A422857A3E00C3125A /* Debug */,
+				E96885A522857A3E00C3125A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96885A622857A3E00C3125A /* Build configuration list for PBXNativeTarget "HobbyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96885A722857A3E00C3125A /* Debug */,
+				E96885A822857A3E00C3125A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96885A922857A3E00C3125A /* Build configuration list for PBXNativeTarget "HobbyTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96885AA22857A3E00C3125A /* Debug */,
+				E96885AB22857A3E00C3125A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96885AC22857A3E00C3125A /* Build configuration list for PBXNativeTarget "HobbyTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96885AD22857A3E00C3125A /* Debug */,
+				E96885AE22857A3E00C3125A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E968858522857A3600C3125A /* HobbyTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E968858622857A3600C3125A /* HobbyTest.xcdatamodel */,
+			);
+			currentVersion = E968858622857A3600C3125A /* HobbyTest.xcdatamodel */;
+			path = HobbyTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		E96885BF2285836E00C3125A /* HobbyTestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E96885C02285836E00C3125A /* HobbyTestModel.xcdatamodel */,
+			);
+			currentVersion = E96885C02285836E00C3125A /* HobbyTestModel.xcdatamodel */;
+			path = HobbyTestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E968857322857A3600C3125A /* Project object */;
+}
